@@ -196,31 +196,14 @@ Team leader will accept the change and merge to the main repo.
 
    ![confirm_merge](./images/confirm_merge.jpg)
 
-   Once you are 100% sure about the new merge, you can create a pull request to merge this branch to main branch.
-
-5. Under pull requests, click on "New pull request".
-
-   ![merge_to_main](./images/merge_to_main.jpg)
-
-6. Make sure base branch is "main" and compare branch is the branch with the changes you want to merge.
-   ![main_create_PR](./images/main_create_PR.jpg)
-
-7. Add a meaningful title and description then click on "Create pull request" and "Merge".
-
-   ![merge_main_create_PR](./images/merge_main_create_PR.jpg)
-
-   ![merge_main_create_PR](./images/confirm_merge_main_create_PR.jpg)
-
-   ![merge_main_create_PR](./images/confirm_merge_.jpg)
-
 ## 10. Update Local Git repository: `Team Leader`
 
-After merge you want to get the most updated code from your main.
+After merge you want to get the most updated code from your main and the branch you are working on.
 
-1. Move to local main branch:
+1. Move to local branch:
 
 ```bash
-git checkout main
+git checkout <your branch>
 ```
 
 2. Pull the most up to date code:
@@ -235,10 +218,10 @@ If there are any conflicts you need to resolve them and do `git add` and `git co
 
 After a merge is done, you would want to get the most updated code from your your upstream.
 
-1. Move to local main branch:
+1. Move to local branch:
 
 ```bash
-git checkout main
+git checkout <your branch>
 ```
 
 2. Pull the most up to date code:
@@ -252,7 +235,7 @@ If there are any conflicts you need to resolve them and do `git add` and `git co
 Then you can update your origin main:
 
 ```bash
-git push origin main
+git push origin <your branch>
 ```
 
 ### **Iron rule**: Always communicate changes and workflows with your teammates.
