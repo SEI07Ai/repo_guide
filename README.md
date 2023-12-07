@@ -9,45 +9,45 @@ This README provides a comprehensive guide for team leader and team members on s
 1. Navigate to your GitHub account.
 2. Click on the '+' icon in the top right corner and select "New repository".
 
-    ![New Repo](./images/new_repo.jpg)
+   ![New Repo](./images/new_repo.jpg)
 
 3. Fill in the repository name, description, and choose visibility options.
-4. Initialize with a README if needed.
+4. Initialize with a README. And gitignore if needed.
 5. Click "Create repository."
 
-    ![Create Repo](./images/create_repo.jpg)
+   ![Create Repo](./images/create_repo.jpg)
 
 ## 2. Set Up Rules: `Team Leader`
 
 1. Click on the "Settings" tab.
 
-    ![Settings Repo](./images/settings.jpg)
+   ![Settings Repo](./images/settings.jpg)
 
 2. In the left sidebar, click on "Branches".
 
-    ![Branches](./images/branches.jpg)
+   ![Branches](./images/branches.jpg)
 
 3. Under the "Branch protection rules" section, click on the "Add branch protection rule" button.
 
-    ![Branches](./images/protection.jpg)
+   ![Branches](./images/protection.jpg)
 
 4. Type "main" in "Branch name pattern"
 
-    ![Branches](./images/main_branch.jpg)
+   ![Branches](./images/main_branch.jpg)
 
 5. Check "Require a pull request before merging"
 
-    ![Branches](./images/Require_pull.jpg)
+   ![Branches](./images/Require_pull.jpg)
 
 6. Click on "Create".
 
-    ![Branches](./images/rule_create.jpg)
+   ![Branches](./images/rule_create.jpg)
 
 ## 3. Clone the Repository: `Team Leader`
 
 1. On your repository, click the "Code" button and copy the repository URL.
 
-    ![Clone Repo](./images/clone_repo.jpg)
+   ![Clone Repo](./images/clone_repo.jpg)
 
 2. Open your terminal and run:
 
@@ -93,17 +93,17 @@ git push --set-upstream origin your-branch-name
 
 2. Click on the "Fork" button in the top right corner of the repository page and then "Create a new fork".
 
-    ![Clone Repo](./images/fork.jpg)
+   ![Clone Repo](./images/fork.jpg)
 
 3. Uncheck "Copy the main branch only" and click "Create fork"
 
-    ![Clone Repo](./images/create_fork.jpg)
+   ![Clone Repo](./images/create_fork.jpg)
 
 ## 5. Clone the Repository: `Team member`
 
 1. Make sure your are on your repository, click the "Code" button and copy the repository URL.
 
-    ![Clone Repo](./images/clone_TM.jpg)
+   ![Clone Repo](./images/clone_TM.jpg)
 
 2. Open your terminal and run:
 
@@ -166,15 +166,15 @@ Once you pushed your changes, GitHub will promote you to create a pull request.
 
 1. Click on "Compare & pull request"
 
-    ![pull request](./images/Pull_request.jpg)
+   ![pull request](./images/Pull_request.jpg)
 
-2. Make sure you are requesting a pull from and to the correct branches. Then, click on "Create pull request"
+2. Make sure you are requesting a pull from the correct branch to main branch. Then, click on "Create pull request"
 
-    ![Create pull request](./images/Create_Pull_request.jpg)
+   ![Create pull request](./images/Create_Pull_request.jpg)
 
-    If there is no conflict you should see a message like this.
+   If there is no conflict you should see a message like this.
 
-    ![No conflict](./images/no_conflict.jpg)
+   ![No conflict](./images/no_conflict.jpg)
 
 ## 9. Accept Pull Request: `Team Leader`
 
@@ -182,36 +182,36 @@ Team leader will accept the change and merge to the main repo.
 
 1. On your (team leader) project repository, click on "Pull requests".
 
-    ![new_pull_request](./images/new_pull_request.jpg)
+   ![new_pull_request](./images/new_pull_request.jpg)
 
 2. Click on the pull request you want to accept and merge.
 
-    ![new_pull_request](./images/pull_request_name.jpg)
+   ![new_pull_request](./images/pull_request_name.jpg)
 
 3. If there is no conflict, Click on "Merge pull request".
 
-    ![merge_pull_request](./images/merger_pull_request.jpg)
+   ![merge_pull_request](./images/merger_pull_request.jpg)
 
 4. Click on "Confirm merge".
 
-    ![confirm_merge](./images/confirm_merge.jpg)
+   ![confirm_merge](./images/confirm_merge.jpg)
 
-    Once you are 100% sure about the new merge, you can create a pull request to merge this branch to main branch.
+   Once you are 100% sure about the new merge, you can create a pull request to merge this branch to main branch.
 
 5. Under pull requests, click on "New pull request".
 
-    ![merge_to_main](./images/merge_to_main.jpg)
+   ![merge_to_main](./images/merge_to_main.jpg)
 
 6. Make sure base branch is "main" and compare branch is the branch with the changes you want to merge.
    ![main_create_PR](./images/main_create_PR.jpg)
 
 7. Add a meaningful title and description then click on "Create pull request" and "Merge".
 
-    ![merge_main_create_PR](./images/merge_main_create_PR.jpg)
+   ![merge_main_create_PR](./images/merge_main_create_PR.jpg)
 
-    ![merge_main_create_PR](./images/confirm_merge_main_create_PR.jpg)
+   ![merge_main_create_PR](./images/confirm_merge_main_create_PR.jpg)
 
-    ![merge_main_create_PR](./images/confirm_merge_.jpg)
+   ![merge_main_create_PR](./images/confirm_merge_.jpg)
 
 ## 10. Update Local Git repository: `Team Leader`
 
